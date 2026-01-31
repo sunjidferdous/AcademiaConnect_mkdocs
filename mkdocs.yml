@@ -1,0 +1,110 @@
+site_name: AcademiaConnect - Software Requirements Specification
+site_description: Complete SRS documentation for AcademiaConnect unified academic platform
+site_author: CSE-3411 Team
+site_url: https://academiaconnect-docs.com
+
+theme:
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Introduction:
+      - Purpose & Scope: introduction/purpose.md
+      - Intended Audience: introduction/audience.md
+      - System Scope: introduction/scope.md
+  - System Overview:
+      - Product Perspective: overview/perspective.md
+      - Product Functions: overview/functions.md
+      - User Classes: overview/users.md
+      - Operating Environment: overview/environment.md
+      - Constraints & Assumptions: overview/constraints.md
+      - SDLC Approach: overview/sdlc.md
+  - Requirements Analysis:
+      - Benchmark Analysis: requirements/benchmark.md
+      - Requirements Gathering: requirements/gathering.md
+      - Survey Results: requirements/survey.md
+      - Gap Analysis: requirements/gap.md
+      - Feature List: requirements/features.md
+  - Functional Requirements:
+      - Notice Timeline: functional/notices.md
+      - Chat System: functional/chat.md
+      - Friend Management: functional/friends.md
+      - Notes Repository: functional/notes.md
+      - Authentication: functional/auth.md
+  - Non-Functional Requirements:
+      - User Interfaces: nonfunctional/ui.md
+      - Software Interfaces: nonfunctional/interfaces.md
+      - Performance: nonfunctional/performance.md
+      - Security: nonfunctional/security.md
+      - Maintainability: nonfunctional/maintainability.md
+  - Feasibility & Management:
+      - Feasibility Analysis: feasibility/analysis.md
+      - SWOT Analysis: feasibility/swot.md
+  - System Design:
+      - Data Flow Diagram: design/dfd.md
+      - Use Case Diagram: design/usecase.md
+      - Class Diagram: design/class.md
+      - Sequence Diagram: design/sequence.md
+  - Prototype:
+      - UI Screenshots: prototype/screenshots.md
+      - Design Principles: prototype/principles.md
+  - Appendices:
+      - Glossary: appendices/glossary.md
+      - Database Schema: appendices/schema.md
+      - Change Log: appendices/changelog.md
+      - References: appendices/references.md
+  - Team: team.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/academiaconnect
+  generator: false
+
+copyright: Copyright &copy; 2025 AcademiaConnect Team - CSE-3411(L)
