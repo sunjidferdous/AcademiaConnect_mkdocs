@@ -20,11 +20,11 @@ This project was developed by a dedicated team of five computer science students
 
 ## Project Information
 
-- **Course**: System Analysis and Design Laboratory
-- **Course Code**: CSE-3411 (L)
+- **Course**: Software Engineering Laboratory
+- **Course Code**: CSE 3422 (G)
 - **Institution**: United International University
-- **Supervisor**: Mr. Sayem Shahad
-- **Submission Date**: October 15, 2025
+- **Supervisor**: S M Jishanul Islam
+- **Submission Date**: February 1, 2026
 - **Project Duration**: 12 weeks
 
 ---
