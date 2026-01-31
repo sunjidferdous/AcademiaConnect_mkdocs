@@ -87,8 +87,8 @@ academiaconnect-docs/
 - Sanjida Hossain (011213055)
 - Md. Asik Ali (011221365)
 
-**Course**: CSE-3411 (L) - System Analysis and Design Laboratory  
-**Supervisor**: Mr. Sayem Shahad  
+**Course**: CSE-3411 (G) - Software Engineering Laboratory 
+**Supervisor**: S M Jishanul Islam  
 **Institution**: United International University
 
 ## License
